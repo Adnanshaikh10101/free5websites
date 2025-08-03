@@ -1,0 +1,205 @@
+<html>
+<head>
+    <title>Adnan Shaikh</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ff5733, #ffbf00, #2ecc71, #3498db, #9b59b6, #f39c12);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Ink Free', 'Indie Flower', cursive;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+    margin-top: 30px;
+    animation: marquee-text 5s ease-in-out infinite;
+}
+	 @keyframes marquee-text {
+            0% {
+                transform: translateX(100%); /* Start from right */
+            }
+            25% {
+                transform: translateX(-10%); /* Slight bounce to the left */
+            }
+            50% {
+                transform: translateX(0); /* Center the text */
+            }
+            75% {
+                transform: translateX(10%); /* Slight bounce to the right */
+            }
+            100% {
+                transform: translateX(-100%); /* End at left */
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .website-card {
+            background: linear-gradient(145deg, #f0f3f5, #3498db); /* Gradient background for the card */
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease;
+        }
+
+        .website-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(145deg, #3498db, #2ecc71); /* Gradient effect on hover */
+        }
+	h3 {
+    	    color: white;
+	}
+
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: black;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .visit-btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #3498db;
+            border-radius: 25px;
+            display: inline-block;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .visit-btn:hover {
+            background-color: #2ecc71;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        footer h4 {
+            margin: 0;
+        }
+
+        .extra-section {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .extra-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .extra-section p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .extra-section a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Top 5 Amazing Websites</h1>
+
+<div class="container">
+
+    <div class="website-card">
+        <h2>1.29a.ch</h2>
+        <p>Let’s just say that if we had this website as a kid, we’d probably end up using it 24×7. The point of the NeonFlames tool is that it allows you to draw your very own Nebula.</p>
+        <a href="https://29a.ch/sandbox/2011/neonflames/" class="visit-btn" target="_blank">Visit</a>
+    </div>
+
+    <div class="website-card">
+        <h2>2. The Useless Web</h2>
+        <p>The Useless Web takes you to corners of the internet you would never visit otherwise. Tap the "Please" button, and it will take you to a completely randomized website.</p>
+        <a href="https://theuselessweb.com/" class="visit-btn" target="_blank">Visit</a>
+    </div>
+
+    <div class="website-card">
+        <h2>3. Netmirror</h2>
+        <p>Free access to premium content like Netflix, Prime Video, and more. Customizable interface to adjust brightness, contrast, and subtitles to personalize your experience.</p>
+        <a href="https://pcmirror.cc/home" class="visit-btn" target="_blank">Visit</a>
+    </div>
+
+    <div class="website-card">
+        <h2>4. POKI</h2>
+        <p>Poki is a completely free online playground offering the best selection of online games. Instant play with no need for downloads or logins.</p>
+        <a href="https://poki.com/" class="visit-btn" target="_blank">Visit</a>
+    </div>
+
+    <div class="website-card">
+        <h2>5. Taste Atlas</h2>
+        <p>TasteAtlas is an experiential travel guide for traditional food, collating authentic recipes, food critic reviews, and research articles on popular dishes.</p>
+        <a href="https://www.tasteatlas.com/" class="visit-btn" target="_blank">Visit</a>
+    </div>
+
+</div>
+<footer>
+    <h4>Webpage Created by: Adnan Shaikh</h4>
+</footer>
+<!-- Contact Section -->
+<div class="extra-section">
+    <h3>Contact Us</h3>
+    <h3>Have questions or feedback? Feel free to reach out to us! We'd love to hear from you.</h3>
+    <h3>Email us at: <a href="mailto:contact@adnanshaikh.com">shaikhaadnan02@gmail.com</a></h3>
+</div>
+
+</body>
+</html>
